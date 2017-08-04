@@ -1,0 +1,705 @@
+1501652986279	geckodriver	INFO	geckodriver 0.18.0
+1501652986287	geckodriver	INFO	Listening on 127.0.0.1:3933
+1501652986830	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501652989300	Marionette	INFO	Listening on port 3939
+1501652989578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501653001021	Marionette	INFO	Ceased listening
+1501653011320	geckodriver	INFO	geckodriver 0.18.0
+1501653011328	geckodriver	INFO	Listening on 127.0.0.1:4064
+1501653011865	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501653014263	Marionette	INFO	Listening on port 4068
+1501653014615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E7%9C%BC&json=1&p=3&sid=1436_21081_17001_22158&req=2&csor=1&cb=jQuery110204374141889626477_1501653020642&_=1501653020644, line 1: TypeError: jQuery110204374141889626477_1501653020642 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E7%9C%BC%E7%9D%9B&json=1&p=3&sid=1436_21081_17001_22158&req=2&csor=2&pwd=%E7%9C%BC&cb=jQuery110204374141889626477_1501653020642&_=1501653020645, line 1: TypeError: jQuery110204374141889626477_1501653020642 is not a function
+1501653055114	Marionette	INFO	Ceased listening
+1501653060051	geckodriver	INFO	geckodriver 0.18.0
+1501653060059	geckodriver	INFO	Listening on 127.0.0.1:4247
+1501653060608	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501653063060	Marionette	INFO	Listening on port 4254
+1501653063357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501653147619	geckodriver	INFO	geckodriver 0.18.0
+1501653147627	geckodriver	INFO	Listening on 127.0.0.1:4451
+1501653148233	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501653150511	Marionette	INFO	Listening on port 4455
+1501653150963	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+console.error: 
+  Message: Error: Connection closed, pending request to server1.conn0.child1/highlighter32, type hideBoxModel failed
+
+Request stack:
+request@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1269:14
+generateRequestMethods/</frontProto[name]@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1426:14
+exports.getHighlighterUtils/exported.unhighlight<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox-highlighter-utils.js:285:13
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+unhighlightDomNode/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/console-output.js:3244:14
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:550:9
+
+  Stack:
+    destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1212:23
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:851:9
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1214:5
+destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/fronts/inspector.js:963:5
+destroyInspector/this._destroyingInspector<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js:2202:13
+_run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:550:9
+
+1501657688814	Marionette	INFO	Ceased listening
+uYW9o3iIUKcn4SWOYDVh1nRxNQqPsNqgA2jwty%26wd%3D%26eqid%3D8f7147e100001abc0000000459816aed&ecd=1&uc=1920x1040&pis=-1x-1&sr=1920x1080&tcn=1501653787&qn=99b12274495f85ca&dpv=99b12274495f85ca&tt=1501653785660.1414.1482.1482, line 83: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/bcgm?mpdi=227509&rtbid=1972219&rdid=9223372032564532863&dc=2&di=968278&dri=0&dis=0&dai=0&ps=646x898&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1501653785747&cop=zdclassid%3D171%26zhidaoqid%3D588604212550497925%26zdquery%3DNordVPN%2520%25E6%2580%258E%25E4%25B9%2588%25E6%25A0%25B7&ti=nordvpn%E6%80%8E%E4%B9%88%E6%A0%B7_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=3&pcs=1247x819&pss=1247x1728&cfv=0&cpl=0&chi=1&cce=true&cec=gbk&tlm=1501653787&prot=2&rw=819&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F588604212550497925.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DmSvb3gaoiJTDa2dAYcJ8AZnfofgjDx00zr5XQCrKvMXNqQhuNJLkNl-bxTjucEOYEmBH9uYW9o3iIUKcn4SWOYDVh1nRxNQqPsNqgA2jwty%26wd%3D%26eqid%3D8f7147e100001abc0000000459816aed&ecd=1&uc=1920x1040&pis=-1x-1&sr=1920x1080&tcn=1501653787&qn=99b12274495f85ca&dpv=99b12274495f85ca&tt=1501653785660.1414.1482.1482, line 83: unreachable code after return statement
+JavaScript warning: http://www.aqniu.com/wp-content/plugins/image-watermark/js/no-right-click.js?ver=1.6.1, line 160: unreachable code after return statement
+JavaScript error: http://www.aqniu.com/wp-content/themes/anquanniu/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4
+JavaScript error: http://www.aqniu.com/wp-content/themes/anquanniu/js/main.js, line 480: TypeError: $.simpleWeather is not a function
+JavaScript error: http://www.aqniu.com/tools-tech/23223.html, line 715: TypeError: $(...).tab is not a function
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=NordVPN%20%E7%9F%A5%E4%B9%8E&json=1&p=3&sid=1434_13701_21100_17001_20927&req=2&bs=NordVPN%20%E6%80%8E%E4%B9%88%E6%A0%B7&pbs=NordVPN%20%E6%80%8E%E4%B9%88%E6%A0%B7&csor=10&pwd=NordVPN%20zhihu&cb=jQuery110205125611718656204_1501653770494&_=1501653770515, line 1: TypeError: jQuery110205125611718656204_1501653770494 is not a function
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1501655092362	Marionette	INFO	Ceased listening
+1501655366842	geckodriver	INFO	geckodriver 0.18.0
+1501655366850	geckodriver	INFO	Listening on 127.0.0.1:8327
+1501655367377	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501655369579	Marionette	INFO	Listening on port 8331
+1501655369670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501655389854	Marionette	INFO	Ceased listening
+1501655397425	geckodriver	INFO	geckodriver 0.18.0
+1501655397432	geckodriver	INFO	Listening on 127.0.0.1:8406
+1501655397962	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501655400344	Marionette	INFO	Listening on port 8410
+1501655400700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501655621821	Marionette	INFO	Ceased listening
+0
+1501655611013	geckodriver	INFO	Listening on 127.0.0.1:8578
+1501655611553	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501655613896	Marionette	INFO	Listening on port 8582
+1501655614290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501655700799	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1501656106733	Marionette	INFO	Ceased listening
+0
+1501656098973	geckodriver	INFO	Listening on 127.0.0.1:9198
+1501656099514	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501656102093	Marionette	INFO	Listening on port 9204
+1501656102239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501656185606	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+Warning: An attempt was made to write to the DEVTOOLS_COPY_UNIQUE_CSS_SELECTOR_OPENED_COUNT histogram, which is not defined in Histograms.json
+Warning: An attempt was made to write to the D*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message1501657520707	Marionette	INFO	Ceased listening
+ch resource.
+Full stack: 
+*************************
+1501657686027	Marionette	INFO	Ceased listening
+1501658307756	geckodriver	INFO	geckodriver 0.18.0
+1501658307764	geckodriver	INFO	Listening on 127.0.0.1:11452
+1501658308278	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501658310560	Marionette	INFO	Listening on port 11457
+1501658311009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501658326890	geckodriver	INFO	geckodriver 0.18.0
+1501658326899	geckodriver	INFO	Listening on 127.0.0.1:11539
+1501658327475	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501658329762	Marionette	INFO	Listening on port 11543
+1501658330208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501658672162	geckodriver	INFO	geckodriver 0.18.0
+1501658672169	geckodriver	INFO	Listening on 127.0.0.1:12126
+1501658672682	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501658674945	Marionette	INFO	Listening on port 12130
+1501658675424	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501658683823	Marionette	INFO	Ceased listening
+1501658710710	geckodriver	INFO	geckodriver 0.18.0
+1501658710719	geckodriver	INFO	Listening on 127.0.0.1:12285
+1501658711255	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501658713483	Marionette	INFO	Listening on port 12289
+1501658713995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501658761503	Marionette	INFO	Ceased listening
+1501658791766	geckodriver	INFO	geckodriver 0.18.0
+1501658791775	geckodriver	INFO	Listening on 127.0.0.1:12467
+1501658792319	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501658794553	Marionette	INFO	Listening on port 12471
+1501658795055	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1501659597033	Marionette	INFO	Ceased listening
+1501658908191	Marionette	INFO	Listening on port 12663
+1501658908620	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1501659594842	Marionette	INFO	Ceased listening
+1501659093554	Marionette	INFO	Listening on port 12906
+1501659094038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501659278084	Marionette	INFO	Ceased listening
+1501659386334	geckodriver	INFO	geckodriver 0.18.0
+1501659386343	geckodriver	INFO	Listening on 127.0.0.1:13173
+1501659386847	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501659389044	Marionette	INFO	Listening on port 13177
+1501659389124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501659459025	geckodriver	INFO	geckodriver 0.18.0
+1501659459032	geckodriver	INFO	Listening on 127.0.0.1:13266
+1501659459548	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501659461815	Marionette	INFO	Listening on port 13270
+1501659462280	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501659591709	Marionette	INFO	Ceased listening
+1501659635897	geckodriver	INFO	geckodriver 0.18.0
+1501659635905	geckodriver	INFO	Listening on 127.0.0.1:13407
+1501659636441	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501659638660	Marionette	INFO	Listening on port 13412
+1501659638745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.jb51.net/jslib/jquery/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1501661211359	Marionette	INFO	Ceased listening
+1501660075243	Marionette	INFO	Listening on port 13797
+1501660075757	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1501661209948	Marionette	INFO	Ceased listening
+0
+1501661028735	geckodriver	INFO	Listening on 127.0.0.1:14559
+1501661029297	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501661031672	Marionette	INFO	Listening on port 14563
+1501661032034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501661207220	Marionette	INFO	Ceased listening
+0
+1501661157191	geckodriver	INFO	Listening on 127.0.0.1:14675
+1501661157709	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501661159954	Marionette	INFO	Listening on port 14679
+1501661160446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501661205074	Marionette	INFO	Ceased listening
+1501728464900	geckodriver	INFO	geckodriver 0.18.0
+1501728464912	geckodriver	INFO	Listening on 127.0.0.1:17383
+1501728465502	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501728468074	Marionette	INFO	Listening on port 17387
+1501728468307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501728555349	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1501728844578	Marionette	INFO	Ceased listening
+1501728854560	geckodriver	INFO	geckodriver 0.18.0
+1501728854575	geckodriver	INFO	Listening on 127.0.0.1:17923
+1501728855239	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501728855884	addons.manager	DEBUG	Application has been upgraded
+1501728855944	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1501728855945	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1501728855948	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1501728855950	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1501728855951	addons.manager	DEBUG	Starting provider: XPIProvider
+1501728855951	addons.xpi	DEBUG	startup
+1501728855951	addons.xpi	INFO	Removing all system add-on upgrades.
+1501728855951	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501728855952	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501728855953	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501728855953	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501728855953	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501728855953	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501728855954	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1501728855954	addons.xpi	DEBUG	checkForChanges
+1501728855955	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501728855955	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1501728855955	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1501728855956	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501728855956	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1501728855957	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501728855957	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1501728855958	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501728855958	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1501728855958	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501728855959	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1501728855959	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501728855959	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1501728855959	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501728855960	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","st":1499393551969},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1499393551964},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1499393551959},"screenshots@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","st":1498397276887},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","st":1499393551950}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1499393551973}}}
+1501728855973	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\IBM_AD~1\AppData\Local\Temp\rust_mozprofile.nBC8xQ56xIm0\extensions.json
+1501728855981	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1501728855993	DeferredSave.extensions.json	DEBUG	Save changes
+1501728855993	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1501728855997	DeferredSave.extensions.json	DEBUG	Starting timer
+1501728855998	DeferredSave.extensions.json	DEBUG	Save changes
+1501728855999	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1501728856004	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856005	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1501728856011	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856012	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1501728856015	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856016	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1501728856019	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856020	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1501728856027	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501728856031	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1501728856032	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1501728856032	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856033	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1501728856033	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501728856035	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1501728856037	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1501728856037	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856037	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1501728856038	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501728856041	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1501728856041	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1501728856042	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856042	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1501728856042	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501728856044	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1501728856045	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1501728856045	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856045	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1501728856045	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501728856047	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1501728856048	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1501728856048	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856048	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1501728856049	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856049	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{634b562c-0c53-40b9-b2ff-d33e74ee6fdb}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","installDate":1499393551969,"updateDate":1499393551969,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501728856049	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501728856049	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{64e86705-0262-4e68-9a8f-18341cc6f6f7}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1499393551964,"updateDate":1499393551964,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501728856049	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501728856050	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{b5de1cfa-522c-4c99-b65a-6c9a18c914d2}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1499393551959,"updateDate":1499393551959,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913952,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501728856050	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501728856050	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{fd899b47-bb42-4a3b-ae09-bb08c731c813}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","installDate":1498397276887,"updateDate":1498397276887,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501728856050	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501728856051	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{0c686b54-6f7e-4c60-b0c3-07c0b15a3f1b}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","installDate":1499393551950,"updateDate":1499393551950,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501728856051	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501728856052	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{dcfc4e06-d321-4ae8-aa7f-97886a38977a}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1499393551973,"updateDate":1499393551973,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1501728856052	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501728856052	DeferredSave.extensions.json	DEBUG	Save changes
+1501728856052	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1501728856052	addons.xpi-utils	DEBUG	Updating add-on states
+1501728856057	addons.xpi-utils	DEBUG	Writing add-ons list
+1501728856070	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501728856070	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1501728856072	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501728856073	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1501728856073	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501728856074	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1501728856075	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501728856076	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1501728856076	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501728856076	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1501728856087	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1501728856088	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1501728856089	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1501728856089	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1501728856089	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1501728856090	addons.manager	DEBUG	Starting provider: GMPProvider
+1501728856102	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1501728856103	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1501728856103	addons.manager	DEBUG	Starting provider: PluginProvider
+1501728856103	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1501728856103	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1501728856103	addons.manager	DEBUG	Completed startup sequence
+1501728856543	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1501728856544	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1501728856544	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1501728856602	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1501728856602	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1501728856602	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1501728856604	DeferredSave.extensions.json	DEBUG	Starting write
+1501728856835	DeferredSave.extensions.json	DEBUG	Write succeeded
+1501728856836	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1501728858071	Marionette	INFO	Listening on port 17927
+1501728858529	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501728858624	Marionette	DEBUG	loaded listener.js
+1501728858655	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501728859314	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501728859315	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501728861421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105"
+1501728864122	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105"
+1501728864693	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105"
+1501728865080	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105"
+1501728865081	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105"
+1501728865196	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728865261	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728865752	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728866221	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728866222	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728866429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728866516	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728867006	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728867459	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728867460	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728867588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728867685	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501728874247	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1501728874248	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1501728874249	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1501728874251	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1501728874252	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 13008] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11732] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1501728874394	addons.manager	DEBUG	shutdown
+1501728874395	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1501728874395	addons.xpi	DEBUG	shutdown
+1501728874395	addons.xpi-utils	DEBUG	shutdown
+1501728874396	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1501728874397	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1501728874399	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1501728874400	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1501728874401	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1501728874404	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1501728874408	addons.manager	DEBUG	Async provider shutdown done
+1501728874553	Marionette	INFO	Ceased listening
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1501729953421	geckodriver	INFO	geckodriver 0.18.0
+1501729953430	geckodriver	INFO	Listening on 127.0.0.1:18323
+1501729954003	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501729956402	Marionette	INFO	Listening on port 18328
+1501729956732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501729994551	geckodriver	INFO	geckodriver 0.18.0
+1501729994566	geckodriver	INFO	Listening on 127.0.0.1:18387
+1501729995117	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501729997865	Marionette	INFO	Listening on port 18391
+1501729997977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730288246	geckodriver	INFO	geckodriver 0.18.0
+1501730288254	geckodriver	INFO	Listening on 127.0.0.1:18595
+1501730288965	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501730291806	Marionette	INFO	Listening on port 18599
+1501730292213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730298906	Marionette	INFO	Ceased listening
+1501730342717	geckodriver	INFO	geckodriver 0.18.0
+1501730342726	geckodriver	INFO	Listening on 127.0.0.1:18650
+1501730343258	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501730345722	Marionette	INFO	Listening on port 18654
+1501730346004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730406923	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1501730406929	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1501730407123	Marionette	INFO	Ceased listening
+1501730408456	geckodriver	INFO	geckodriver 0.18.0
+1501730408468	geckodriver	INFO	Listening on 127.0.0.1:18735
+1501730409027	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501730411537	Marionette	INFO	Listening on port 18739
+1501730411837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730438277	Marionette	INFO	Ceased listening
+1501730439545	geckodriver	INFO	geckodriver 0.18.0
+1501730439552	geckodriver	INFO	Listening on 127.0.0.1:18796
+1501730440247	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501730442967	Marionette	INFO	Listening on port 18800
+1501730443071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730474756	Marionette	INFO	Ceased listening
+1501730498097	geckodriver	INFO	geckodriver 0.18.0
+1501730498107	geckodriver	INFO	Listening on 127.0.0.1:18941
+1501730498794	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501730501408	Marionette	INFO	Listening on port 18946
+1501730501578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501730524883	Marionette	INFO	Ceased listening
+1501733341257	geckodriver	INFO	geckodriver 0.18.0
+1501733341266	geckodriver	INFO	Listening on 127.0.0.1:19351
+1501733341768	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501733344142	Marionette	INFO	Listening on port 19355
+1501733344507	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501733364706	Marionette	INFO	Ceased listening
+1501733371709	geckodriver	INFO	geckodriver 0.18.0
+1501733371720	geckodriver	INFO	Listening on 127.0.0.1:19471
+1501733372398	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501733375364	Marionette	INFO	Listening on port 19475
+1501733375676	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501733398442	Marionette	INFO	Ceased listening
+1501733399555	geckodriver	INFO	geckodriver 0.18.0
+1501733399565	geckodriver	INFO	Listening on 127.0.0.1:19590
+1501733400240	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501733402789	Marionette	INFO	Listening on port 19594
+1501733403017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501733440053	Marionette	INFO	Ceased listening
+0
+1501733438759	geckodriver	INFO	Listening on 127.0.0.1:19708
+1501733439288	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501733441785	Marionette	INFO	Listening on port 19712
+1501733442045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501733470940	Marionette	INFO	Ceased listening
+1501734251323	geckodriver	INFO	geckodriver 0.18.0
+1501734251332	geckodriver	INFO	Listening on 127.0.0.1:19931
+1501734252037	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501734254468	Marionette	INFO	Listening on port 19935
+1501734254789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501734301765	geckodriver	INFO	geckodriver 0.18.0
+1501734301773	geckodriver	INFO	Listening on 127.0.0.1:19994
+1501734302371	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501734304908	Marionette	INFO	Listening on port 20000
+1501734305131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501734404047	geckodriver	INFO	geckodriver 0.18.0
+1501734404056	geckodriver	INFO	Listening on 127.0.0.1:20070
+1501734404677	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501734407171	Marionette	INFO	Listening on port 20074
+1501734407449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501734439923	geckodriver	INFO	geckodriver 0.18.0
+1501734439933	geckodriver	INFO	Listening on 127.0.0.1:20139
+1501734440531	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501734447137	geckodriver	INFO	geckodriver 0.18.0
+1501734447151	geckodriver	INFO	Listening on 127.0.0.1:20152
+1501734447846	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501734450586	Marionette	INFO	Listening on port 20156
+1501734450711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735034195	geckodriver	INFO	geckodriver 0.18.0
+1501735034204	geckodriver	INFO	Listening on 127.0.0.1:20665
+1501735034765	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735037320	Marionette	INFO	Listening on port 20669
+1501735037511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735098279	geckodriver	INFO	geckodriver 0.18.0
+1501735098289	geckodriver	INFO	Listening on 127.0.0.1:20710
+1501735098870	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735101576	Marionette	INFO	Listening on port 20714
+1501735101693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735238440	geckodriver	INFO	geckodriver 0.18.0
+1501735238453	geckodriver	INFO	Listening on 127.0.0.1:20761
+1501735239013	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735241608	Marionette	INFO	Listening on port 20765
+1501735241774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735294441	geckodriver	INFO	geckodriver 0.18.0
+1501735294455	geckodriver	INFO	Listening on 127.0.0.1:20819
+1501735295040	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735298035	Marionette	INFO	Listening on port 20823
+1501735298310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735320622	geckodriver	INFO	geckodriver 0.18.0
+1501735320630	geckodriver	INFO	Listening on 127.0.0.1:20939
+1501735321237	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735323679	Marionette	INFO	Listening on port 20943
+1501735323979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501735360247	geckodriver	INFO	geckodriver 0.18.0
+1501735360256	geckodriver	INFO	Listening on 127.0.0.1:21067
+1501735360952	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501735363487	Marionette	INFO	Listening on port 21071
+1501735363766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501741027676	geckodriver	INFO	geckodriver 0.18.0
+1501741027684	geckodriver	INFO	Listening on 127.0.0.1:22641
+1501741028300	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1501741028832	addons.manager	DEBUG	Application has been upgraded
+1501741028907	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1501741028908	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1501741028911	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1501741028913	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1501741028913	addons.manager	DEBUG	Starting provider: XPIProvider
+1501741028914	addons.xpi	DEBUG	startup
+1501741028914	addons.xpi	INFO	Removing all system add-on upgrades.
+1501741028914	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501741028915	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501741028915	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501741028916	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501741028916	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501741028916	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501741028917	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1501741028917	addons.xpi	DEBUG	checkForChanges
+1501741028917	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1501741028918	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1501741028918	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1501741028919	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501741028920	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1501741028920	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501741028921	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1501741028921	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501741028921	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1501741028921	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501741028922	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1501741028922	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501741028923	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1501741028923	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501741028923	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","st":1499393551969},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1499393551964},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1499393551959},"screenshots@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","st":1498397276887},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","st":1499393551950}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1499393551973}}}
+1501741028939	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\IBM_AD~1\AppData\Local\Temp\rust_mozprofile.neaLuIOfld6P\extensions.json
+1501741028948	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1501741028961	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028962	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1501741028966	DeferredSave.extensions.json	DEBUG	Starting timer
+1501741028967	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028967	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1501741028973	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028973	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1501741028979	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028980	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1501741028984	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028984	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1501741028988	DeferredSave.extensions.json	DEBUG	Save changes
+1501741028989	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1501741028998	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501741029002	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1501741029003	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1501741029003	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029004	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1501741029004	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501741029007	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1501741029008	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1501741029008	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029009	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1501741029009	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501741029012	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1501741029012	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1501741029013	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029013	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1501741029013	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501741029015	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1501741029016	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1501741029016	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029016	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1501741029016	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501741029018	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1501741029018	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1501741029019	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029019	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1501741029019	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029020	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{2536265b-a8bc-4af7-91bd-d5a0767dca67}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","installDate":1499393551969,"updateDate":1499393551969,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501741029020	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1501741029020	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{73d93953-d5dc-40a6-a1ef-44eb83963580}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1499393551964,"updateDate":1499393551964,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501741029021	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1501741029021	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{87d6c891-1c7f-4027-8c80-44256829a6db}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1499393551959,"updateDate":1499393551959,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913952,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501741029021	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1501741029022	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{7995492a-bb9d-4f53-8810-318a117b442a}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","installDate":1498397276887,"updateDate":1498397276887,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501741029022	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1501741029022	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{65e5c739-2c50-4f24-8d0f-7c3a9680f306}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","installDate":1499393551950,"updateDate":1499393551950,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1501741029023	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1501741029023	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{407406dc-8d9f-43b3-ba0e-bd2d215a1441}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1499393551973,"updateDate":1499393551973,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1501741029023	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1501741029024	DeferredSave.extensions.json	DEBUG	Save changes
+1501741029024	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1501741029024	addons.xpi-utils	DEBUG	Updating add-on states
+1501741029028	addons.xpi-utils	DEBUG	Writing add-ons list
+1501741029044	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1501741029045	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1501741029047	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1501741029048	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1501741029048	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501741029049	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1501741029050	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1501741029050	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1501741029051	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501741029051	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1501741029062	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1501741029063	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1501741029064	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1501741029064	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1501741029064	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1501741029065	addons.manager	DEBUG	Starting provider: GMPProvider
+1501741029082	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1501741029082	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1501741029082	addons.manager	DEBUG	Starting provider: PluginProvider
+1501741029082	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1501741029082	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1501741029082	addons.manager	DEBUG	Completed startup sequence
+1501741029622	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1501741029623	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1501741029623	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1501741029710	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1501741029710	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1501741029710	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1501741029713	DeferredSave.extensions.json	DEBUG	Starting write
+1501741029966	DeferredSave.extensions.json	DEBUG	Write succeeded
+1501741029967	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1501741031306	Marionette	INFO	Listening on port 22645
+[GPU 16740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1501741031522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501741031559	Marionette	DEBUG	loaded listener.js
+1501741031581	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501741032296	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501741032296	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501741032577	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105"
+1501741035272	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105"
+1501741035593	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105"
+1501741036240	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105"
+1501741036242	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105"
+1501741036461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741036659	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741037148	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741037611	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741037612	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=20&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741037782	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741037891	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741038387	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741038705	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741038706	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=40&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741038819	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741038930	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741039450	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741039869	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741039870	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=60&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741040031	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=80&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741040094	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=80&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741040584	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=80&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741041147	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=80&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741041147	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=80&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741041288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=100&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741041580	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=100&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741042050	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=100&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741042598	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=100&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741042599	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=100&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741042817	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=120&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741042944	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=120&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741043425	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=120&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741043892	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=120&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741043895	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=120&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741044079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=140&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741044164	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=140&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741044653	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=140&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741045218	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=140&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741045219	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=140&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741045348	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=160&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741045457	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=160&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741045948	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=160&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741046483	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=160&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741046484	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=160&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741046621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=180&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741046719	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=180&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741047213	Marionette	DEBUG	Received DOM event "beforeunload" for "https://read.douban.com/kind/105?start=180&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741048037	Marionette	DEBUG	Received DOM event "pagehide" for "https://read.douban.com/kind/105?start=180&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741048038	Marionette	DEBUG	Received DOM event "unload" for "https://read.douban.com/kind/105?start=180&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741048153	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://read.douban.com/kind/105?start=200&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741048302	Marionette	DEBUG	Received DOM event "pageshow" for "https://read.douban.com/kind/105?start=200&sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None"
+1501741051180	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1501741051182	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1501741051185	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1501741051188	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1501741051190	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 16740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1501741051361	addons.manager	DEBUG	shutdown
+1501741051362	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1501741051362	addons.xpi	DEBUG	shutdown
+1501741051362	addons.xpi-utils	DEBUG	shutdown
+1501741051362	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1501741051363	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1501741051365	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1501741051366	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1501741051367	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1501741051369	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1501741051373	addons.manager	DEBUG	Async provider shutdown done
+1501741051573	Marionette	INFO	Ceased listening
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

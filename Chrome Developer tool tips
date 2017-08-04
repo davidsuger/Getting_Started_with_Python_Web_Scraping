@@ -1,0 +1,4 @@
+use $$(".message") test selector in console
+$$(".message")[0].innerText
+
+use $x('//*[@id="js-repo-pjax-container"]/div[2]/div[1]/div[5]') test xpath in console
